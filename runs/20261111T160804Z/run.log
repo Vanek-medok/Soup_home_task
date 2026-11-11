@@ -1,0 +1,58 @@
+2026/11/11 16:08:04.865529 run 20261111T160804Z seed=1794413284859828649 config={API:http://api:8080 DSN:postgres://postgres:postgres@postgres:5432/jobs?sslmode=disable Jobs:100 Conc:16 RPS:10 DupRate:0.3 CancelRPS:2 KillEvery:1s FreezeProb:0 FreezeFor:45s WorkerSvc:worker Project:soup DrainTimeout:10m0s Settle:15s Seed:1794413284859828649 OutDir:/runs Reset:true}
+2026/11/11 16:08:06.667522 chaos: SIGKILL ba5dd8140eb2
+2026/11/11 16:08:08.266367 chaos: SIGKILL 361a832a6273
+2026/11/11 16:08:09.538621 chaos: SIGKILL 5f7db3bc82aa
+2026/11/11 16:08:10.632303 chaos: SIGKILL 5fb9865b2621
+2026/11/11 16:08:11.841433 chaos: SIGKILL 228e01858fcd
+2026/11/11 16:08:13.122550 chaos: SIGKILL fa3e818309ea
+2026/11/11 16:08:14.703465 chaos: SIGKILL b265e7810d2d
+2026/11/11 16:08:14.917120 load finished: acked keys=100
+2026/11/11 16:08:15.900738 chaos: SIGKILL 802d069f8d96
+2026/11/11 16:08:19.925753 draining: queued=65 running=5
+2026/11/11 16:08:24.935359 draining: queued=61 running=5
+2026/11/11 16:08:29.942269 draining: queued=54 running=4
+2026/11/11 16:08:34.950619 draining: queued=50 running=4
+2026/11/11 16:08:39.960048 draining: queued=46 running=4
+2026/11/11 16:08:44.970244 draining: queued=39 running=4
+2026/11/11 16:08:49.978843 draining: queued=34 running=3
+2026/11/11 16:08:54.986057 draining: queued=30 running=2
+2026/11/11 16:08:59.993708 draining: queued=28 running=1
+2026/11/11 16:09:05.001600 draining: queued=28 running=1
+2026/11/11 16:09:10.010419 draining: queued=25 running=1
+2026/11/11 16:09:15.019098 draining: queued=22 running=1
+2026/11/11 16:09:20.026682 draining: queued=18 running=0
+2026/11/11 16:09:25.034339 draining: queued=17 running=0
+2026/11/11 16:09:30.040707 draining: queued=16 running=0
+2026/11/11 16:09:35.047832 draining: queued=15 running=0
+2026/11/11 16:09:40.054346 draining: queued=15 running=0
+2026/11/11 16:09:45.062487 draining: queued=12 running=0
+2026/11/11 16:09:50.070707 draining: queued=12 running=0
+2026/11/11 16:09:55.079472 draining: queued=12 running=0
+2026/11/11 16:10:00.085754 draining: queued=11 running=0
+2026/11/11 16:10:05.093984 draining: queued=11 running=0
+2026/11/11 16:10:10.101463 draining: queued=10 running=0
+2026/11/11 16:10:15.109240 draining: queued=9 running=0
+2026/11/11 16:10:20.118150 draining: queued=9 running=0
+2026/11/11 16:10:25.125933 draining: queued=8 running=0
+2026/11/11 16:10:30.130550 draining: queued=7 running=0
+2026/11/11 16:10:35.138300 draining: queued=6 running=0
+2026/11/11 16:10:40.146102 draining: queued=5 running=0
+2026/11/11 16:10:45.153914 draining: queued=4 running=0
+2026/11/11 16:10:50.162354 draining: queued=4 running=0
+2026/11/11 16:10:55.169320 draining: queued=4 running=0
+2026/11/11 16:11:00.174506 draining: queued=4 running=0
+2026/11/11 16:11:05.182909 draining: queued=4 running=0
+2026/11/11 16:11:10.191068 draining: queued=4 running=0
+2026/11/11 16:11:15.199062 draining: queued=3 running=0
+2026/11/11 16:11:20.207232 draining: queued=3 running=0
+2026/11/11 16:11:25.214333 draining: queued=2 running=0
+2026/11/11 16:11:30.220573 draining: queued=2 running=0
+2026/11/11 16:11:35.228743 draining: queued=2 running=0
+2026/11/11 16:11:40.236057 draining: queued=2 running=0
+2026/11/11 16:11:45.242791 draining: queued=1 running=0
+2026/11/11 16:11:50.249104 draining: queued=1 running=0
+2026/11/11 16:11:53.253322 drain finished: queued=0 running=0
+2026/11/11 16:11:53.253429 chaos stopped, settling 15s to catch late zombie writes
+2026/11/11 16:12:08.272191 stats: map[cancel_http_200:565 cancel_http_409:26 chaos_no_workers:208 dup_posts:85 effects_total:4 final_cancelled:96 final_succeeded:4 jobs_in_db:100 jobs_reclaimed:0 keys_acked:100 keys_unacked_in_db:0 kills:8 list_pages:1 max_attempt:1 post_ok:185 watch_polls:486]
+2026/11/11 16:12:08.272384 WARNING: no job was ever re-claimed (attempt>1): kills never hit a running job, the run is not informative; slow the worker down
+2026/11/11 16:12:08.272399 RESULT: PASS (run 20261111T160804Z)

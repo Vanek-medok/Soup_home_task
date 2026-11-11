@@ -1,0 +1,33 @@
+2026/11/11 17:19:09.444725 run 20261111T171909Z seed=1794417549443734570 config={API:http://api:8080 DSN:postgres://postgres:postgres@postgres:5432/jobs?sslmode=disable Jobs:100 Conc:16 RPS:10 DupRate:0.3 CancelRPS:0 KillEvery:5s FreezeProb:0 FreezeFor:45s WorkerSvc:worker Project:soup DrainTimeout:10m0s Settle:15s Seed:1794417549443734570 OutDir:/runs Reset:true}
+2026/11/11 17:19:13.797846 chaos: SIGKILL 4f5cbfe904ff
+2026/11/11 17:19:19.426582 chaos: SIGKILL 6cdb064a1519
+2026/11/11 17:19:19.569753 load finished: acked keys=100
+2026/11/11 17:19:24.579751 draining: queued=76 running=9
+2026/11/11 17:19:27.451487 chaos: SIGKILL f17db2e214ca
+2026/11/11 17:19:29.589592 draining: queued=68 running=9
+2026/11/11 17:19:33.367707 chaos: SIGKILL 3b0bc5b03bf0
+2026/11/11 17:19:34.597136 draining: queued=59 running=10
+2026/11/11 17:19:37.418263 chaos: SIGKILL 1d671dbbb8da
+2026/11/11 17:19:39.604832 draining: queued=51 running=10
+2026/11/11 17:19:41.325474 chaos: SIGKILL f92e938b2555
+2026/11/11 17:19:44.613633 draining: queued=43 running=10
+2026/11/11 17:19:46.947498 chaos: SIGKILL 4f5cbfe904ff
+2026/11/11 17:19:49.622432 draining: queued=36 running=10
+2026/11/11 17:19:53.992179 chaos: SIGKILL 5329cd5a6cb1
+2026/11/11 17:19:54.632674 draining: queued=29 running=9
+2026/11/11 17:19:57.066411 chaos: SIGKILL 5329cd5a6cb1
+2026/11/11 17:19:59.640602 draining: queued=21 running=10
+2026/11/11 17:20:00.538196 chaos: SIGKILL 6cdb064a1519
+2026/11/11 17:20:04.649286 draining: queued=13 running=10
+2026/11/11 17:20:05.677359 chaos: SIGKILL 5329cd5a6cb1
+2026/11/11 17:20:09.661491 draining: queued=6 running=10
+2026/11/11 17:20:12.755344 chaos: SIGKILL dfee31b7c7af
+2026/11/11 17:20:14.670193 draining: queued=0 running=8
+2026/11/11 17:20:16.961136 chaos: SIGKILL 6cdb064a1519
+2026/11/11 17:20:19.676724 draining: queued=0 running=1
+2026/11/11 17:20:21.945817 chaos: SIGKILL dfee31b7c7af
+2026/11/11 17:20:24.682270 draining: queued=0 running=1
+2026/11/11 17:20:26.684273 drain finished: queued=0 running=0
+2026/11/11 17:20:26.684458 chaos stopped, settling 15s to catch late zombie writes
+2026/11/11 17:20:41.733301 stats: map[dup_posts:71 effects_total:100 final_succeeded:100 jobs_in_db:100 jobs_reclaimed:12 keys_acked:100 keys_unacked_in_db:0 kills:14 list_pages:1 max_attempt:2 post_ok:171 watch_polls:184]
+2026/11/11 17:20:41.733365 RESULT: PASS (run 20261111T171909Z)

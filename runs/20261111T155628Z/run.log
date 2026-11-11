@@ -1,0 +1,8 @@
+2026/11/11 15:56:28.211234 run 20261111T155628Z seed=1794412588208476260 config={API:http://api:8080 DSN:postgres://postgres:postgres@postgres:5432/jobs?sslmode=disable Jobs:100 Conc:16 RPS:50 DupRate:0.3 CancelRPS:5 KillEvery:5s FreezeProb:0 FreezeFor:45s WorkerSvc:worker Project:soup DrainTimeout:10m0s Settle:15s Seed:1794412588208476260 OutDir:/runs Reset:true}
+2026/11/11 15:56:30.654730 load finished: acked keys=100
+2026/11/11 15:56:30.659094 drain finished: queued=0 running=0
+2026/11/11 15:56:30.659219 chaos stopped, settling 15s to catch late zombie writes
+2026/11/11 15:56:45.687653 stats: map[cancel_http_200:2 cancel_http_409:12 dup_posts:59 effects_total:99 final_cancelled:1 final_succeeded:99 jobs_in_db:100 jobs_reclaimed:0 keys_acked:100 keys_unacked_in_db:0 list_pages:1 max_attempt:1 post_ok:159 watch_polls:34]
+2026/11/11 15:56:45.687732 WARNING: no chaos action was executed: this run proves nothing (docker socket mounted? worker service name?)
+2026/11/11 15:56:45.687736 WARNING: no job was ever re-claimed (attempt>1): kills never hit a running job, the run is not informative; slow the worker down
+2026/11/11 15:56:45.687739 RESULT: PASS (run 20261111T155628Z)

@@ -1,0 +1,66 @@
+2026/11/11 16:13:12.359021 run 20261111T161312Z seed=1794413592358134228 config={API:http://api:8080 DSN:postgres://postgres:postgres@postgres:5432/jobs?sslmode=disable Jobs:100 Conc:16 RPS:10 DupRate:0.3 CancelRPS:2 KillEvery:1s FreezeProb:0 FreezeFor:45s WorkerSvc:worker Project:soup DrainTimeout:10m0s Settle:15s Seed:1794413592358134228 OutDir:/runs Reset:true}
+2026/11/11 16:13:13.793805 chaos: SIGKILL 68226d42ca01
+2026/11/11 16:13:15.376086 chaos: SIGKILL c25846069f92
+2026/11/11 16:13:16.549565 chaos: SIGKILL 560db29b4ea9
+2026/11/11 16:13:18.009334 chaos: SIGKILL a6d3e2fa6d1a
+2026/11/11 16:13:19.537433 chaos: SIGKILL 1f07d6d8af50
+2026/11/11 16:13:20.891604 chaos: SIGKILL 79dfd4abd0a2
+2026/11/11 16:13:22.192840 chaos: SIGKILL ddf0ff6c2220
+2026/11/11 16:13:22.458349 load finished: acked keys=100
+2026/11/11 16:13:23.124115 chaos: SIGKILL 6e4d5e6298a5
+2026/11/11 16:13:27.470012 draining: queued=66 running=6
+2026/11/11 16:13:32.476750 draining: queued=60 running=5
+2026/11/11 16:13:37.484647 draining: queued=55 running=5
+2026/11/11 16:13:42.492147 draining: queued=49 running=5
+2026/11/11 16:13:47.500708 draining: queued=47 running=5
+2026/11/11 16:13:52.509314 draining: queued=44 running=5
+2026/11/11 16:13:57.518603 draining: queued=43 running=5
+2026/11/11 16:14:02.526044 draining: queued=42 running=3
+2026/11/11 16:14:07.532681 draining: queued=38 running=2
+2026/11/11 16:14:12.541434 draining: queued=31 running=2
+2026/11/11 16:14:17.549691 draining: queued=29 running=2
+2026/11/11 16:14:22.558945 draining: queued=26 running=2
+2026/11/11 16:14:27.566351 draining: queued=26 running=2
+2026/11/11 16:14:32.571754 draining: queued=25 running=2
+2026/11/11 16:14:37.577684 draining: queued=23 running=2
+2026/11/11 16:14:42.585957 draining: queued=21 running=2
+2026/11/11 16:14:47.593665 draining: queued=20 running=1
+2026/11/11 16:14:52.601071 draining: queued=19 running=1
+2026/11/11 16:14:57.608279 draining: queued=17 running=0
+2026/11/11 16:15:02.615216 draining: queued=14 running=0
+2026/11/11 16:15:07.622697 draining: queued=13 running=0
+2026/11/11 16:15:12.631400 draining: queued=12 running=0
+2026/11/11 16:15:17.638646 draining: queued=11 running=0
+2026/11/11 16:15:22.646469 draining: queued=10 running=0
+2026/11/11 16:15:27.652882 draining: queued=7 running=0
+2026/11/11 16:15:32.659007 draining: queued=6 running=0
+2026/11/11 16:15:37.666909 draining: queued=4 running=0
+2026/11/11 16:15:42.675616 draining: queued=4 running=0
+2026/11/11 16:15:47.682852 draining: queued=4 running=0
+2026/11/11 16:15:52.691129 draining: queued=4 running=0
+2026/11/11 16:15:57.699829 draining: queued=4 running=0
+2026/11/11 16:16:02.706660 draining: queued=4 running=0
+2026/11/11 16:16:07.713215 draining: queued=3 running=0
+2026/11/11 16:16:12.720509 draining: queued=3 running=0
+2026/11/11 16:16:17.728951 draining: queued=3 running=0
+2026/11/11 16:16:22.736920 draining: queued=3 running=0
+2026/11/11 16:16:27.744983 draining: queued=3 running=0
+2026/11/11 16:16:32.752343 draining: queued=3 running=0
+2026/11/11 16:16:37.759479 draining: queued=2 running=0
+2026/11/11 16:16:42.765045 draining: queued=1 running=0
+2026/11/11 16:16:47.772580 draining: queued=1 running=0
+2026/11/11 16:16:52.780026 draining: queued=1 running=0
+2026/11/11 16:16:57.787014 draining: queued=1 running=0
+2026/11/11 16:17:02.794164 draining: queued=1 running=0
+2026/11/11 16:17:07.802877 draining: queued=1 running=0
+2026/11/11 16:17:12.809354 draining: queued=1 running=0
+2026/11/11 16:17:17.816783 draining: queued=1 running=0
+2026/11/11 16:17:22.823564 draining: queued=1 running=0
+2026/11/11 16:17:27.831917 draining: queued=1 running=0
+2026/11/11 16:17:32.836588 draining: queued=1 running=0
+2026/11/11 16:17:37.843745 draining: queued=1 running=0
+2026/11/11 16:17:41.849046 drain finished: queued=0 running=0
+2026/11/11 16:17:41.849170 chaos stopped, settling 15s to catch late zombie writes
+2026/11/11 16:17:56.867024 stats: map[cancel_http_200:652 cancel_http_409:34 chaos_no_workers:250 dup_posts:68 effects_total:5 final_cancelled:95 final_succeeded:5 jobs_in_db:100 jobs_reclaimed:0 keys_acked:100 keys_unacked_in_db:0 kills:8 list_pages:1 max_attempt:1 post_ok:168 watch_polls:568]
+2026/11/11 16:17:56.867090 WARNING: no job was ever re-claimed (attempt>1): kills never hit a running job, the run is not informative; slow the worker down
+2026/11/11 16:17:56.867095 RESULT: PASS (run 20261111T161312Z)

@@ -1,0 +1,24 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local data
+out/
+pgdata/
+*.db
+
+# Build artifacts
+/bin/
+/build/
+*.exe
+*.test
+coverage.out
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
