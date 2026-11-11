@@ -1,0 +1,129 @@
+{
+  "run_id": "20261111T175006Z",
+  "config": {
+    "api": "http://api:8080",
+    "jobs": 10000,
+    "conc": 128,
+    "rps": 100,
+    "dup_rate": 0.3,
+    "cancel_rps": 5,
+    "kill_every": 2000000000,
+    "freeze_prob": 0,
+    "freeze_for": 45000000000,
+    "worker_service": "worker",
+    "compose_project": "soup",
+    "drain_timeout": 1200000000000,
+    "settle": 30000000000,
+    "seed": 1794419406662962859,
+    "out_dir": "/runs",
+    "reset": true
+  },
+  "started": "2026-11-11T17:50:06.685963312Z",
+  "finished": "2026-11-11T18:04:11.499471172Z",
+  "stats": {
+    "cancel_http_200": 4958,
+    "cancel_http_404": 3,
+    "cancel_http_409": 82,
+    "chaos_no_workers": 1,
+    "dup_posts": 7528,
+    "effects_total": 0,
+    "jobs_in_db": 0,
+    "jobs_reclaimed": 0,
+    "keys_acked": 10000,
+    "keys_unacked_in_db": -10000,
+    "kills": 338,
+    "list_pages": 16,
+    "max_attempt": 0,
+    "post_ok": 17528,
+    "watch_polls": 1609
+  },
+  "violation_counts": {
+    "lost_job": 10000
+  },
+  "violation_examples": [
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-007077 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-008625 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-008692 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-008817 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-000215 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-001838 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-003226 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-003822 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-008570 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-009822 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-000958 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-001150 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-003144 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-003795 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-004403 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-005826 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-006152 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-006301 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-005160 was acknowledged by the API but is not in the DB"
+    },
+    {
+      "check": "lost_job",
+      "detail": "key chaos-20261111T175006Z-009759 was acknowledged by the API but is not in the DB"
+    }
+  ],
+  "warnings": [
+    "no job was ever re-claimed (attempt\u003e1): kills never hit a running job, the run is not informative; slow the worker down"
+  ],
+  "pass": false
+}

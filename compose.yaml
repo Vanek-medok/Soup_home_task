@@ -79,8 +79,8 @@ services:
       HEARTBEAT: 3s
       REAP_INTERVAL: 2s
       POLL_INTERVAL: 200ms
-      JOB_MIN: 5s
-      JOB_MAX: 5s
+      JOB_MIN: 100ms
+      JOB_MAX: 300ms
     stop_grace_period: 15s
     restart: unless-stopped
     deploy:
